@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backg {
+    background: #0A223C;
+    margin: 0;
+    
+  }
+  
+/* Mengatur gaya scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Lebar scrollbar */
+  }
+  
+  /* Track (background scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #807d7d;
+    border-radius: 10px;
+  }
+  
+  /* Handle (bagian yang digeser) */
+  ::-webkit-scrollbar-thumb {
+    background: #00203F;
+    border-radius: 10px;
+  }
+  
+  /* Handle saat di-hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00203F;
+  }
+
+  .leaflet-container{
+    height: auto;
+  }
+
+  .width-map{
+    width: 600px;
+    height: 630px;
+    z-index: 0;
+    border-radius: 20px;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; 
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
